@@ -12,7 +12,8 @@ RUN apk add --no-cache \
   zlib-dev zlib-static python3-dev \
   curl git ncurses-dev ncurses-static libunwind-static libunwind-dev \
   libcap-static libcap-dev flex bison gawk \
-  lm-sensors-dev bash xz
+  lm-sensors-dev bash xz xz-static
+
   
 ENV XZ_OPT=-e9
 COPY build-static-htop.sh build-static-htop.sh
