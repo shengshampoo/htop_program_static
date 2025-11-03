@@ -12,7 +12,7 @@ RUN apk add --no-cache \
   zlib-dev zlib-static python3-dev \
   curl git ncurses-dev ncurses-static libunwind-static libunwind-dev \
   libcap-static libcap-dev flex bison gawk \
-  lm-sensors-dev bash xz xz-static git autoconf automake
+  lm-sensors-dev bash xz xz-static git libtool autoconf automake
 
   
 ENV XZ_OPT=-e9
