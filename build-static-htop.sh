@@ -14,7 +14,6 @@ cd htop-$aa
 LDFLAGS="-static --static -no-pie -s -lunwind" ./configure --prefix=/usr/local/htopmm --enable-unicode --enable-static --enable-capabilities --enable-vserver --enable-openvz --enable-sensors
 make
 make install
-ldconfig 
 
 
 cd /usr/local
