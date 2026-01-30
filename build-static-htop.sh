@@ -7,6 +7,7 @@ mkdir -p $WORKSPACE
 mkdir -p /work/artifact
 
 # hwloc
+cd $WORKSPACE
 git clone https://github.com/open-mpi/hwloc
 cd hwloc
 ./autogen.sh
